@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "616B330316C6B2AE0009AD78"
-               BuildableName = "Profiling-OSX"
-               BlueprintName = "Profiling-OSX"
+               BlueprintIdentifier = "0114EF3A22D7CC1F00CAA8C4"
+               BuildableName = "Slash.framework"
+               BlueprintName = "Slash"
                ReferencedContainer = "container:Slash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,13 +28,23 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0114EF4222D7CC1F00CAA8C4"
+               BuildableName = "SlashTests.xctest"
+               BlueprintName = "SlashTests"
+               ReferencedContainer = "container:Slash.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "616B330316C6B2AE0009AD78"
-            BuildableName = "Profiling-OSX"
-            BlueprintName = "Profiling-OSX"
+            BlueprintIdentifier = "0114EF3A22D7CC1F00CAA8C4"
+            BuildableName = "Slash.framework"
+            BlueprintName = "Slash"
             ReferencedContainer = "container:Slash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -51,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "616B330316C6B2AE0009AD78"
-            BuildableName = "Profiling-OSX"
-            BlueprintName = "Profiling-OSX"
+            BlueprintIdentifier = "0114EF3A22D7CC1F00CAA8C4"
+            BuildableName = "Slash.framework"
+            BlueprintName = "Slash"
             ReferencedContainer = "container:Slash.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "616B330316C6B2AE0009AD78"
-            BuildableName = "Profiling-OSX"
-            BlueprintName = "Profiling-OSX"
+            BlueprintIdentifier = "0114EF3A22D7CC1F00CAA8C4"
+            BuildableName = "Slash.framework"
+            BlueprintName = "Slash"
             ReferencedContainer = "container:Slash.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
